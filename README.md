@@ -3,11 +3,9 @@
 An enterprise-grade AI healthcare chatbot powered by Retrieval-Augmented Generation (RAG), designed to provide accurate, context-aware medical responses from clinical documents.
 
 This system ingests medical PDFs, builds semantic vector memory, and enables natural language querying through a conversational interface using Large Language Models.
-## 🎥 Product Demo — MedAI Enterprise
 
-Watch the end-to-end demonstration of the AI healthcare assistant:
-![MedAI Demo] 
-click below: https://youtu.be/nb9OxWdw07E
+## 🎥 Product Demo — MedAI Enterprise
+- https://youtu.be/nb9OxWdw07E
 ---
 
 ## 🚀 Key Features
