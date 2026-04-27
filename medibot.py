@@ -70,9 +70,9 @@ def main():
 
             qa_chain = RetrievalQA.from_chain_type(
                 llm=ChatGroq(
-                    model_name="meta-llama/llama-4-maverick-17b-128e-instruct",  # free, fast Groq-hosted model
-                    temperature=0.0,
-                    groq_api_key=GROQ_API_KEY,
+                model_name="llama3-8b-8192",
+                temperature=0.0,
+                groq_api_key=GROQ_API_KEY,
                 ),
                 chain_type="stuff",
                 retriever=vectorstore.as_retriever(search_kwargs={'k':3}),
